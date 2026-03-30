@@ -1,0 +1,44 @@
+name: scancash_pro
+description: "GST Expense Tracker with OCR"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  # OCR
+  google_mlkit_text_recognition: ^0.13.0
+
+  # Camera / Image picker
+  image_picker: ^1.0.7
+
+  # Database
+  sqflite: ^2.3.2
+  path: ^1.9.0
+
+  # HTTP for GSTIN API
+  http: ^1.2.1
+
+  # PDF generation
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+  # Charts
+  fl_chart: ^0.68.0
+
+  # Share / open files
+  share_plus: ^9.0.0
+  path_provider: ^2.1.3
+
+  # Intl for date formatting
+  intl: ^0.19.0
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+flutter:
+  uses-material-design: true
